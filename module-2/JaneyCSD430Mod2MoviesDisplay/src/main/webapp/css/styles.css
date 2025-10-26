@@ -1,0 +1,71 @@
+/* Jonah Aney 10/26/26 CSD-430 Module-2 Java Scriplet - Data Display
+
+For this week’s assignment you will create a dynamic HTML page using JSP Scriptlets. You will include Java code in Scriptlet sections and place all HTML tags outside Scriptlet sections. You also use external CSS sheets to modify the style. Lastly, in your page, you will create a table holding the data to be displayed. For the data, create a record with data files relation to one of the following:
+
+    A book you have enjoyed reading.
+    A movie you have enjoyed reading.
+    A state or country you have enjoyed visiting.
+
+Then, you will need to:
+
+    Document your code.
+    Use Scriptlets for holding Java code.
+    All HTML tags will be outside of Java Scriptlets.
+    Display data in an HTML table format.
+    The data will be grouped into topical categories.
+    Include other display items such as field and recode descriptions, title, and overall data description. 
+    Data will have a minimum of 5 records with three fields.
+    
+css file for JSP data table style */
+
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    color: #080808;
+    margin: 40px;
+}
+
+h1 {
+    color: #282e3c;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+th {
+    background-color: black;
+    color: gold;
+    padding: 12px;
+    latter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #eaf3ff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+}
